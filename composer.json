@@ -1,5 +1,5 @@
 {
-    "name": "esarp/paypal-sdk-core-php",
+    "name": "shmeeps/paypal-sdk-core-php",
     "replace": {
         "paypal/sdk-core-php": "3.4.0"
     },
