@@ -3,22 +3,7 @@
 ## Deprecation notice
 This repo was cloned from an old composer cache to replace the now-deleted paypal/sdk-core-php repository, and only contains version 3.4.0.
 
-To use this, add the following to your `composer.json` file:
-
-```
-"repositories": [
-  {
-    "type": "vcs",
-    "url": "https://github.com/shmeeps/paypal-sdk-core-php"
-  }
-]
-```
-
-Then, replace your include in `composer.json` to the following:
-
-```
-
-```
+To use this, require the package in the top level of your `composer.json`.
 
 ## Please Note
 > **The Payment Card Industry (PCI) Council has [mandated](http://blog.pcisecuritystandards.org/migrating-from-ssl-and-early-tls) that early versions of TLS be retired from service.  All organizations that handle credit card information are required to comply with this standard. As part of this obligation, PayPal is updating its services to require TLS 1.2 for all HTTPS connections. At this time, PayPal will also require HTTP/1.1 for all connections. [Click here](https://github.com/paypal/tls-update) for more information**
